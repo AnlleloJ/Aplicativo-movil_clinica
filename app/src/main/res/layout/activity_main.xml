@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnregistro"
+        android:layout_width="332dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/valbtnregistro"
+        app:icon="?attr/actionModePasteDrawable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnformulario"
+        android:layout_width="335dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/valbtnFormulario"
+        app:icon="@drawable/ic_baseline_checklist_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregistro" />
+
+    <Button
+        android:id="@+id/btnlistado"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/valbtnlistado"
+        app:icon="@drawable/ic_baseline_menu_book_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnformulario"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="332dp"
+        android:layout_height="254dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_logo_clinica12v3_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

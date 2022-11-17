@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">EC2Moviles</string>
+    <string name="valtitulo">INFORMACIÓN</string>
+    <string name="valdni">DNI</string>
+    <string name="valnombre">Nombre</string>
+    <string name="valapellido">Apellidos</string>
+    <string name="valemail">E-mail</string>
+    <string name="valpass">Password</string>
+    <string name="valgenero">Sexo:</string>
+    <string name="valhombre">Hombre</string>
+    <string name="valmujer">Mujer</string>
+    <string name="valhobbie">Hobbies</string>
+    <string name="valdeporte">Deporte</string>
+    <string name="valpintura">Pintura</string>
+    <string name="valotro">Otro</string>
+    <string name="valotrohobbie">Ingrese otro Hobby</string>
+    <string name="valbtnregistro">REGISTRO</string>
+    <string name="valbtnformulario" />
+    <string name="valbtnFormulario">FORMULARIO</string>
+    <string name="valbtnlistado">LISTADO</string>
+    <string name="valbtnlistarRegistro">LISTAR</string>
+    <string name="valtitulocuestionario">CUESTIONARIO COVID-19</string>
+    <string name="valsintomas">1. Marca tus síntomas.</string>
+    <string name="valsint1">Disminución del gusto o del olfato.</string>
+    <string name="valsint2">Tos</string>
+    <string name="valsint3">Dolor de garganta</string>
+    <string name="valsint4">Congestión nasal</string>
+    <string name="valsint5">Fiebre</string>
+    <string name="valsint6">Ninguno</string>
+    <string name="valfiebre">2. ¿Tienes fiebre mayor a 37° grados?</string>
+    <string name="valrbtsi">SI</string>
+    <string name="valrbtno">NO</string>
+    <string name="valpr3">3. ¿Vives solo en casa?</string>
+    <string name="valrbtp3si">SI</string>
+    <string name="valprt3no">NO</string>
+    <string name="valp4">4. ¿Vives con un adulto mayor en casa?</string>
+    <string name="lvrbtP4">SI</string>
+    <string name="valrbtP4no">NO</string>
+    <string name="valprt5">5. ¿Cuentas con los siguientes servicios en casa?</string>
+    <string name="valchkluz">Luz</string>
+    <string name="valchkagua">Agua</string>
+    <string name="valchkinternet">Internet</string>
+    <string name="valchkcable">Cable</string>
+    <string name="valbtnResolverFormulario">Resolver</string>
+    <string name="valbtnlistarform">VERIFICAR</string>
+
+</resources>
+
